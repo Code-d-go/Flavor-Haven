@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home</title>
+        <link rel="icon" type="image/ x-icon" href="https://scontent.xx.fbcdn.net/v/t1.15752-9/462550346_1106501800994110_4458001500614340597_n.png?_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeGN8P5GTKg8dkHf15Qg4anPc5pBBTZMzlxzmkEFNkzOXPxvV-6h3ahSMrbE1yl7CC5U0cI7lNPwQIcNtbMq5pCx&_nc_ohc=eYir10Y2IpQQ7kNvgGjZJiT&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QFHQZVh7jlHKckcJn1B4zBSYikZS0Oe30w1r91uS1zHSg&oe=675FCA47">
+        <style type="text/css">
+                    body {
+            background-attachment: fixed;
+            background-image: url(https://wallpapers.com/images/hd/best-food-background-wqquwafv2y44eqte.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 60vh;
+            background-size: cover;
+        }
+
+        h1 {
+            color: whitesmoke;
+            text-align: center;
+            font-size: 125px;
+            padding-top:15%;
+            font-family: verdana, sans-serif;
+            margin: 20px 0;
+        }
+
+        p {
+            color: whitesmoke;
+            text-align: center;
+            font-size: 50px;
+            margin: 5px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: whitesmoke;
+            padding: 10px;
+            font-size: 23px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .nav {
+            text-align: right;
+            border: solid;
+            border-color: transparent;
+            backdrop-filter: blur(20px);
+          
+        }
+
+        div {
+            border: solid;
+            margin: 5% auto;
+            width: 80%;
+            max-width: 600px;
+            border-color: whitesmoke;
+            border-radius: 20px;
+            backdrop-filter: blur(20px);
+            padding: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            background-color: #ff5c5c;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+           
+           
+        }
+
+        button:hover {
+            background-color: #ff2c2c;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 40px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            a {
+                font-size: 16px;
+            }
+
+            div {
+                width: 90%;
+            }
+
+            button {
+                font-size: 14px;
+                padding: 8px 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            a {
+                font-size: 14px;
+            }
+
+            button {
+                font-size: 12px;
+                padding: 5px 10px;
+            }
+        }
+                                
+        </style>
+</head>
+ 
+<body>
+
+         <nav class="nav">
+                <a href="Home.html">Home</a>
+                <a href="AboutUs.html">About Us</a>
+                <a href="Products.html">Product</a>
+                <a href="Reservation.html">Reservation</a>
+                <a href="contact.html">Contact</a>
+                <button id="logoutButton">Log Out</button>
+        </nav>
+        <h1>Flavor Haven</h1>
+        <p><i>"A paradise for a palate"</i></p>
+
+        <script>
+        document.getElementById("logoutButton").addEventListener("click", function() {
+            window.location.href = "index.html";
+        });
+    </script>
+ 
+</body>
+</html>
